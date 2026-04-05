@@ -9,11 +9,11 @@
  </head>
 <body>
     <div class="container">
-        <h1>Currency - Convertor</h1>
+        <h2>Currency Converter 💱</h2>
         <form>
             <div class="amount">
                 <p>Enter the Amount</p>
-                <input value="100" type="text" />
+                <input value="1" type="text" />
             </div>
 
             <div class="dropdown">
@@ -21,17 +21,17 @@
                     <p>From</p>
                     <div class="select-container">
                         <img src="https://flagsapi.com/US/flat/64.png" alt="United States flag">
-                        <select name="from"></select>
+                        <select name="from" id="fromCurrency"></select>
                     </div>
                 </div>
 
-                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right-arrow-left" id="swapBtn"></i>
 
                 <div class="to">
                     <p>To</p>
                     <div class="select-container">
                         <img src="https://flagsapi.com/IN/flat/64.png" alt="India flag">
-                        <select name="to"></select>
+                        <select name="to" id="toCurrency"></select>
                     </div>
                 </div>
             </div>
